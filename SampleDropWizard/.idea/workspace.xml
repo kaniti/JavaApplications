@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b4bf1b27-bd72-4c1e-91ba-e2246d543b6d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SampleDropWizard" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZWU2GRtHFw8cc6Hr72qGCu47cj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\IdeaProjects\SampleDropWizard" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle build" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SampleService">
+    <configuration name="SampleService" type="Application" factoryName="Application" nameIsGenerated="true" show_console_on_std_err="true" show_console_on_std_out="true">
+      <output_file path="E:/dropwizard_logs/application_logs.txt" is_save="true" />
+      <log_file alias="Logs" path="E:/dropwizard_logs" />
+      <option name="MAIN_CLASS_NAME" value="com.sample.SampleService" />
+      <module name="SampleDropWizard.main" />
+      <option name="PROGRAM_PARAMETERS" value="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="build" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="EmployeeRestControllerTest.createEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SampleDropWizard.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sample.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.sample.controller.EmployeeRestControllerTest" />
+      <option name="METHOD_NAME" value="createEmployee" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeRestControllerTest.getAllEmployees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SampleDropWizard.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sample.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.sample.controller.EmployeeRestControllerTest" />
+      <option name="METHOD_NAME" value="getAllEmployees" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeRestControllerTest.removeEmployeeById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SampleDropWizard.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sample.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.sample.controller.EmployeeRestControllerTest" />
+      <option name="METHOD_NAME" value="removeEmployeeById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeRestControllerTest.testRemoveEmployeeById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SampleDropWizard.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sample.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.sample.controller.EmployeeRestControllerTest" />
+      <option name="METHOD_NAME" value="testRemoveEmployeeById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeRestControllerTest.testUpdateEmployeeById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SampleDropWizard.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sample.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.sample.controller.EmployeeRestControllerTest" />
+      <option name="METHOD_NAME" value="testUpdateEmployeeById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SampleService" />
+      <item itemvalue="Gradle.build" />
+      <item itemvalue="JUnit.EmployeeRestControllerTest.getAllEmployees" />
+      <item itemvalue="JUnit.EmployeeRestControllerTest.createEmployee" />
+      <item itemvalue="JUnit.EmployeeRestControllerTest.testUpdateEmployeeById" />
+      <item itemvalue="JUnit.EmployeeRestControllerTest.removeEmployeeById" />
+      <item itemvalue="JUnit.EmployeeRestControllerTest.testRemoveEmployeeById" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmployeeRestControllerTest.testRemoveEmployeeById" />
+        <item itemvalue="JUnit.EmployeeRestControllerTest.removeEmployeeById" />
+        <item itemvalue="JUnit.EmployeeRestControllerTest.getAllEmployees" />
+        <item itemvalue="JUnit.EmployeeRestControllerTest.testUpdateEmployeeById" />
+        <item itemvalue="JUnit.EmployeeRestControllerTest.createEmployee" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4bf1b27-bd72-4c1e-91ba-e2246d543b6d" name="Default Changelist" comment="" />
+      <created>1584954137666</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584954137666</updated>
+      <workItem from="1584954148710" duration="14570000" />
+      <workItem from="1585024077808" duration="35259000" />
+      <workItem from="1585078272339" duration="304000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="495" y="93" key="#SampleService" timestamp="1584965177279">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="495" y="93" key="#SampleService/0.0.1536.824@0.0.1536.824" timestamp="1584965177279" />
+    <state x="188" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584970991572">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="188" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1584970991572" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1585055081291">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1585055081291" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1584955241855">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584955241855" />
+    <state x="498" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584970971017">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1584970971017" />
+    <state x="503" y="177" key="EnvironmentVariablesDialog" timestamp="1584964923615">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="503" y="177" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1584964923615" />
+    <state x="548" y="170" key="FileChooserDialogImpl" timestamp="1585027117638">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585027117638" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1585077278212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585077278212" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1585077278212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585077278212" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1585077278212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585077278212" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1585077278212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585077278212" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1584973366311">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584973366311" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1584973366311">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584973366311" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1584973366311">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584973366311" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1584973366311">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584973366311" />
+    <state x="279" y="58" key="SettingsEditor" timestamp="1585047282449">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585047282449" />
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1585078277912">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585078277912" />
+    <state x="209" y="30" key="new project wizard" timestamp="1584969011048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="30" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1584969011048" />
+    <state x="477" y="47" key="refactoring.ChangeSignatureDialog" timestamp="1585049612086">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="47" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1585049612086" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1585058188375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585058188375" />
+  </component>
+</project>
