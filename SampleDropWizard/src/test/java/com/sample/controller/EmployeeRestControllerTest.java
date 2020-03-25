@@ -53,7 +53,7 @@ public class EmployeeRestControllerTest {
     }
 
     @Test
-    public void createEmployee() {
+    public void testCreateEmployee() {
         final Response response = RESOURCES.target("/employees/createEmployees")
                 .request(MediaType.APPLICATION_JSON_TYPE)
                 .post(Entity.entity(employee, MediaType.APPLICATION_JSON_TYPE));
@@ -89,30 +89,29 @@ public class EmployeeRestControllerTest {
         assertThat(response.getStatusInfo()).isEqualTo(Response.Status.OK);
     }
 
-    /*@Test
+   @Test
     public void testUpdateEmployeeById(){
         Employee employee = new Employee();
         employee.setId(1);
         employee.setFirstName("abc");
         employee.setLastName("adsfgsdf");
         employee.setEmail("sdf.sadf@gmail.com");
-        when(employeeDAO.getEmployee(anyInt())).thenReturn(employee);
-        //when(employeeDAO.updateEmployee(anyInt(), employee)).thenReturn("Employee Updated Successfully");
-        Response response = employeeRestController.updateEmployeeById(1,"abc","adsfgsdf","sdf.sadf@gmail.com");
+        when(employeeDAO.updateEmployee(1, employee)).thenReturn(employee);
+        Response response = employeeRestController.updateEmployeeById(2,"dsrtert","wewerew","sdf.rwe@gmail.com");
         assertThat(response.getStatusInfo()).isEqualTo(Response.Status.OK);
-    }*/
+    }
 
-   /* @Test
+    @Test
     public void testRemoveEmployeeById(){
         Employee employee = new Employee();
         employee.setId(1);
         employee.setFirstName("raja");
         employee.setLastName("sekhar");
         employee.setEmail("rajasekhar@gmail.com");
-        when(employeeDAO.getEmployee(anyInt())).thenReturn(employee);
+        when(employeeDAO.removeEmployee(anyInt())).thenReturn(employee);
         Response response = employeeRestController.removeEmployeeById(1);
         assertThat(response.getStatusInfo()).isEqualTo(Response.Status.OK);
-    }*/
+    }
 
 
 }

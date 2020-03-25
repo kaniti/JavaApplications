@@ -61,9 +61,8 @@ public class EmployeeRestController {
     @PUT
     @Path("/{id}")
     public Response updateEmployeeById(@PathParam("id") Integer id, @HeaderParam("first_name") String fName,@HeaderParam("last_name") String lName, @HeaderParam("email") String email) {
-        Employee employee = empDao.getEmployee(id);
         System.out.println("====================Update Employee details============================");
-        if (employee != null) {
+        Employee employee = new Employee();
             employee.setId(id);
             if(fName != null)
                 employee.setFirstName(fName);
@@ -72,13 +71,12 @@ public class EmployeeRestController {
             if(email != null)
                 employee.setEmail(email);
 
-            String isUpdated = empDao.updateEmployee(id, employee);
-            if("Employee Updated Successfully".equals(isUpdated))
-                return Response.ok(employee).build();
-            else
-                return Response.status(Status.NOT_FOUND).build();
-        } else
+               Employee emp = empDao.updateEmployee(id, employee);
+        if (employee != null)
+            return Response.ok(employee.getId()+"Updated successfully!!").build();
+        else
             return Response.status(Status.NOT_FOUND).build();
+
     }
 
     @DELETE

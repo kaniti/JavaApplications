@@ -21,13 +21,12 @@ public class EmployeeDAO {
     }
 
     public String createEmployee(Employee emp){
-        employees.put(1, emp);
+        employees.put(emp.getId(), emp);
         return "created successfully";
     }
 
-    public String updateEmployee(Integer id, Employee employee){
-        employees.put(id, employee);
-        return "Employee Updated Successfully";
+    public Employee updateEmployee(Integer id, Employee employee){
+        return employees.put(id, employee);
     }
 
     public Employee removeEmployee(Integer id){
