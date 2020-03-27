@@ -13,8 +13,9 @@ public class SampleService extends Application<Configuration> {
         new SampleService().run(args);
     }
     @Override
-    public void initialize(Bootstrap<Configuration> b) {
+    public void initialize(Bootstrap<Configuration> bootstrap) {
     }
+
     @Override
     public void run(Configuration configuration, Environment environment) throws Exception {
         environment.jersey().register(new EmployeeRestController());

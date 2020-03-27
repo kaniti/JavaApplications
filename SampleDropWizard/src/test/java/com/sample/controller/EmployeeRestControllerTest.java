@@ -7,23 +7,13 @@ import io.dropwizard.testing.junit5.DropwizardExtensionsSupport;
 import io.dropwizard.testing.junit5.ResourceExtension;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.ArgumentCaptor;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import javax.ws.rs.client.Entity;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
-import java.util.ArrayList;
-import java.util.List;
-
-import static org.assertj.core.api.Assertions.assertThat;
-import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.Mockito.reset;
-import static org.mockito.Mockito.when;
 
 
 /**
@@ -32,6 +22,7 @@ import static org.mockito.Mockito.when;
 @ExtendWith(DropwizardExtensionsSupport.class)
 public class EmployeeRestControllerTest {
     public Employee employee;
+    //public static ManagedDataSource dataSource;
     private ArgumentCaptor<Employee> employeeCaptor = ArgumentCaptor.forClass(Employee.class);
     public static final ResourceExtension RESOURCES = ResourceExtension.builder()
             .addResource(new EmployeeRestController())
@@ -52,7 +43,7 @@ public class EmployeeRestControllerTest {
         reset(employeeDAO);
     }
 
-    @Test
+  /*  @Test
     public void testCreateEmployee() {
         final Response response = RESOURCES.target("/employees/createEmployees")
                 .request(MediaType.APPLICATION_JSON_TYPE)
@@ -113,5 +104,5 @@ public class EmployeeRestControllerTest {
         assertThat(response.getStatusInfo()).isEqualTo(Response.Status.OK);
     }
 
-
+*/
 }
