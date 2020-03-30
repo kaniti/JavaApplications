@@ -5,6 +5,7 @@ import com.sample.dao.EmployeeDAO;
 import com.sample.model.Employee;
 import io.dropwizard.testing.junit5.DropwizardExtensionsSupport;
 import io.dropwizard.testing.junit5.ResourceExtension;
+import org.junit.Assert;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -57,9 +58,17 @@ public class EmployeeRestControllerTest {
     @Test
     public void testCreateEmployee() throws URISyntaxException {
 
+        employeeDAO.createEmployee(employee);
+        Assert.assertNotNull(Integer.valueOf(1));
+        Assert.assertEquals(Integer.valueOf(1),employee.getId());
+        Assert.assertEquals(String.valueOf("raja"), employee.getFirstName());
+        Assert.assertEquals(String.valueOf("sekhar"), employee.getLastName());
+        Assert.assertEquals(String.valueOf("rajasekhar@gmail.com"), employee.getEmail());
+
         when(employeeDAO.createEmployee(employee)).thenReturn(String.valueOf("Error"));
         Response response = employeeRestController.createEmployee(1,"raja","sekhar","rajasekhar@gmail.com");
         assertThat(response.getStatusInfo()).isEqualTo(Response.Status.NOT_FOUND);
+
 
     /*    when(employeeDAO.createEmployee(employee)).thenReturn(String.valueOf("created successfully"));
         Response res = employeeRestController.createEmployee(1,"raja","sekhar","rajasekhar@gmail.com");
@@ -91,6 +100,19 @@ public class EmployeeRestControllerTest {
 
    @Test
     public void testUpdateEmployeeById(){
+       Employee emp = new Employee();
+       emp.setId(5);
+       emp.setFirstName("shiva");
+       emp.setLastName("kaniti");
+       emp.setEmail("shiva.kaniti@gmail.com");
+       employeeDAO.updateEmployee(5, emp);
+
+       Assert.assertNotNull(Integer.valueOf(5));
+       Assert.assertEquals(Integer.valueOf(5),emp.getId());
+       Assert.assertEquals(String.valueOf("shiva"), emp.getFirstName());
+       Assert.assertEquals(String.valueOf("kaniti"), emp.getLastName());
+       Assert.assertEquals(String.valueOf("shiva.kaniti@gmail.com"), emp.getEmail());
+
         when(employeeDAO.updateEmployee(1, employee)).thenReturn(String.valueOf("Employee with "+employee.getId()+" not Existed"));
         Response response = employeeRestController.updateEmployeeById(1,"abc","sekhar","raja.kaniti@gmail.com");
         assertThat(response.getStatusInfo()).isEqualTo(Response.Status.NOT_FOUND);
